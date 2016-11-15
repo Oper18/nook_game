@@ -1,12 +1,10 @@
 
-This is a so-called empty project for Open Game Studio (OGS) Editor.
+This is a nook game.
 
 Overview
 ========
 
-This project contains the bare minimum of what a normal OGS project could
-contain. Its purpose is to serve as a starting point for all new projects
-and to explain OGS project hierarchy to newcomers.
+The destination of this game is the change side on field for position of stones.
 
 Hierarchy
 =========
@@ -36,7 +34,6 @@ Hierarchy
 │   In this case, it contains:
 │   * light
 │   * camera
-│   * ball
 │
 ├── default.sounds
 │
@@ -50,10 +47,6 @@ Hierarchy
 │   │    
 │   │   Contains models in OpenSceneGraph format. You can use
 │   │   "osgexport" Blender exporter to generate it.
-│   │ 
-│   └── ball.osgt
-│
-│       Ball model for the ball scene node.
 │
 ├── pipeline
 │   │
@@ -63,15 +56,6 @@ Hierarchy
 │   │
 │   └── textures
 │       │
-│       │   Contains PNG files that represent textures.
-│       │
-│       ├── ball_n.png
-│       │   
-│       │   Normal map (texture) for the ball material.
-│       │    
-│       └── ball_tex.png
-│
-│           Diffuse map (texture) for the ball material.
 │
 ├── player.shortcuts
 │
@@ -85,12 +69,6 @@ Hierarchy
 │   This file.
 │
 ├── scripts
-│   │
-│   │   Contains Python scripts for scene nodes. Each script exports
-│   │   its own API into Environment that is shared among the engine
-│   │   and all scripts.
-│   │
-│   ├── Ball.py
 │   │
 │   │   Provides 'ball...moving' API to rotate the ball. Rotation is
 │   │   performed by the above mentioned rotation action.
