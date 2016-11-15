@@ -11,3 +11,8 @@ node
             position = -0.958163 -6.873294 2.654914
             rotation = 73.499695 0.000000 -7.399796
             script = scripts/CameraSync.py
+        field
+            model = models/field.osgt
+            parent = ROOT
+            position = -0.500000 -2.700000 1.600000
+            rotation = 40.000000 -30.000000 10.000000
