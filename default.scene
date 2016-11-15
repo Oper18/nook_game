@@ -4,7 +4,7 @@ node
         light
             light = default
             parent = ROOT
-            position = 0.000000 -10.000000 20.000000
+            position = -20.000000 -20.000000 0.000000
             script = scripts/Main.py
         camera
             parent = ROOT
@@ -12,10 +12,12 @@ node
             rotation = 73.499695 0.000000 -7.399796
             script = scripts/CameraSync.py
         field
+            material = field
             model = models/field.osgt
             parent = ROOT
             position = -0.500000 -2.700000 1.600000
             rotation = 40.000000 -30.000000 10.000000
         stones
+            material = stones
             model = models/stone.osgt
             parent = field
