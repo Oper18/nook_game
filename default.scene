@@ -20,5 +20,6 @@ node
         stones
             material = stone
             model = models/stone.osgt
-            parent = ROOT
-            position = 0.670000 -2.290000 0.870000
+            parent = field
+            position = 0.990000 -0.520000 0.030000
+            script = scripts/Stones.py
