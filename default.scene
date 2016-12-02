@@ -15,5 +15,10 @@ node
             material = field
             model = models/field.osgt
             parent = ROOT
-            position = -0.200000 -2.000000 1.500000
-            rotation = 30.000000 30.000000 -30.000000
+            position = -0.300000 -2.000000 1.300000
+            rotation = 60.000000 0.000000 0.000000
+        stones
+            material = stone
+            model = models/stone.osgt
+            parent = ROOT
+            position = 0.670000 -2.290000 0.870000

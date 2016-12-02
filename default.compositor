@@ -5,7 +5,7 @@ material
     main
         field
             diffuse = pipeline/textures/field_textures.png
-            normal = pipeline/textures/field_normal_2.png
+            normal = pipeline/textures/field_normal.png
         stone
-            diffuse = pipeline/textures/stone_textures.png
-            normal = pipeline/textures/stone_normal_3.png
+            diffuse = pipeline/textures/stone_textures_green.png
+            normal = pipeline/textures/stone_normal.png
