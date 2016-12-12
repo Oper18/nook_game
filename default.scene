@@ -15,11 +15,10 @@ node
             material = field
             model = models/field.osgt
             parent = ROOT
-            position = -0.300000 -2.000000 1.300000
+            position = -0.100000 -1.000000 1.000000
             rotation = 60.000000 0.000000 0.000000
-        stones
+        greenstone
             material = stone
             model = models/stone.osgt
             parent = field
-            position = 0.990000 -0.520000 0.030000
-            script = scripts/Stones.py
+            position = -1.285000 0.670000 0.040000
