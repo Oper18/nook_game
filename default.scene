@@ -17,8 +17,53 @@ node
             parent = ROOT
             position = -0.100000 -1.000000 1.000000
             rotation = 60.000000 0.000000 0.000000
-        greenstone
+        greenstone1
             material = stone
             model = models/stone.osgt
             parent = field
             position = -1.285000 0.670000 0.040000
+        greenstone2
+            material = stone
+            model = models/stone.osgt
+            parent = field
+            position = -1.075000 0.669000 0.040000
+        greenstone3
+            material = stone
+            model = models/stone.osgt
+            parent = field
+            position = -0.860000 0.669000 0.040000
+        greenstone4
+            material = stone
+            model = models/stone.osgt
+            parent = field
+            position = -0.645000 0.669000 0.040000
+        greenstone5
+            material = stone
+            model = models/stone.osgt
+            parent = field
+            position = -1.175000 0.500000 0.040000
+        greenstone6
+            material = stone
+            model = models/stone.osgt
+            parent = field
+            position = -1.070000 0.335000 0.040000
+        greenstone7
+            material = stone
+            model = models/stone.osgt
+            parent = field
+            position = -0.960000 0.170000 0.040000
+        greenstone8
+            material = stone
+            model = models/stone.osgt
+            parent = field
+            position = -0.965000 0.500000 0.040000
+        greenstone9
+            material = stone
+            model = models/stone.osgt
+            parent = field
+            position = -0.750000 0.500000 0.040000
+        greenstone10
+            material = stone
+            model = models/stone.osgt
+            parent = field
+            position = -0.860000 0.335000 0.040000
